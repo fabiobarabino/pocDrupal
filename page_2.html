@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Page_2</title>
+
+    <link href="theme.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"> </script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <main>
+       <div class="get-url-container">
+        <div class="form-subscription">
+            <label class="select-title"><strong>SUBSCRIBE</strong></label>
+             <br>
+             <br>
+             <select name="Months">
+              <option value="volvo">1 Month</option>
+              <option value="saab">3 Months</option>
+              <option value="fiat">6 Months</option>
+              <option value="audi">12 Months</option>
+            </select>
+            <br><br>
+            <button class="subscription-btn">Subscription</button>
+        </div>
+         <div class="textarea-container textarea-get-container">
+              <textarea class="get-textarea" id="get_text_area" name="message" rows="12"></textarea>
+              <br>
+              <button class="textarea-btn" id="get_btn">Get</button>
+         </div>
+         <div class="textarea-container textarea-delete-container">
+              <label><strong>ID</strong></label>
+              <br>
+              <input  class="input" type="text" id ="delete_id">
+              <br>
+              <button class="textarea-btn" id="delete_btn">Delete</button>
+          </div>
+          <div class="textarea-container textarea-edit-container">
+                <label><strong>ID</strong></label>
+                <br>
+                <input  class="input" type="text" id ="delete_id">
+                <br>
+                <br>
+                <label><strong>TITLE</strong></label>
+                <br>
+                <input id="title_edit_text_area" class="input" type="text">
+                <br>
+                <br>
+                <textarea id="edit_text_area" name="message" rows="10"></textarea>
+                <br>
+                <button class="textarea-btn" id="edit_btn">Edit</button>
+                <br>
+                <br>
+                <iframe id="iframe_video" width="500" height="300" src="https://www.youtube.com/embed/v=5EaedyS_OMc" frameborder="5" allowfullscreen></iframe>
+          </div>
+          <div class="textarea-container textarea-create-container"> 
+               <label><strong>TITLE</strong></label>
+               <input id="title_create_text_area" class="input" type="text">
+               <br>
+               <br>
+               <textarea id="create_text_area" name="message" rows="10"></textarea>
+               <br>
+               <button class="textarea-btn" id="create_btn">Create</button>
+          </div>
+      </div>
+    </main>
+  </body>
+</html>
